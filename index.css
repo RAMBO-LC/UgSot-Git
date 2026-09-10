@@ -1,0 +1,60 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px; /* Gives the whole navbar breathing room */
+    background-color: #ffffff; /* Example background */
+}
+
+/* Add a rule for your list container */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none; /* Removes the bullet points */
+    margin: 0;
+    padding: 0;
+    gap: 20px; /* MODERN WAY: Creates clean space BETWEEN your menu items */
+}
+
+/* Keep the li styling simple */
+nav li {
+    display: block; /* No longer needs to be flex */
+}
+
+/* Apply the padding and font-size to the actual links */
+nav li a {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333333;
+    padding: 8px 16px; /* Makes the entire area easily clickable */
+    transition: background-color 0.2s;
+}
+
+/* Optional: Add a nice hover effect */
+nav li a:hover {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.hero{
+    height: 90vh;
+    width: 100vw;
+    background-color: antiquewhite;
+}
+
+.sub-hero{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(172, 201, 227)
+}
+
+.logo{
+    height : 150px;
+    width: 300px;
+}
+
+.hero-img img{
+    height: 90vh;
+    width: 100vw;
+    
+} 
